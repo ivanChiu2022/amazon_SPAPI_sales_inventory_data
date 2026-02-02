@@ -8,24 +8,24 @@ This project automates the process of generating **Sales**, **Inventory** report
 
 AVC/
 ├── accessToken/
-│ ├── accessToken.json # Stores access token after generation
-│ ├── data.json # Contains credentials required to request access token
-│ └── getAccessToken.py # Python script to generate access token
+        accessToken.json # Stores access token after generation
+        data.json # Contains credentials required to request access token
+        getAccessToken.py # Python script to generate access token
 
 ├── reportAPI_invReport/
-│ ├── documentId.json # Stores document ID response for inventory report
-│ ├── reportId.json # Stores Report ID for inv report
-│ ├── getDocumentId.py # Gets document ID using report ID
-│ ├── getReportId.py # Submits report request to get report ID
-│ └── getReportURL.py # Downloads report from URL using document ID
+        documentId.json # Stores document ID response for inventory report
+        reportId.json # Stores Report ID for inv report
+        getDocumentId.py # Gets document ID using report ID
+        getReportId.py # Submits report request to get report ID
+        getReportURL.py # Downloads report from URL using document ID
 
 
 ├── reportAPI_salesReport/
-│ ├── documentId.json # Stores document ID response for Sales report
-│ ├── reportId.json # Stores Report ID for Sales report
-│ ├── getDocumentId.py # Gets document ID using report ID
-│ ├── getReportId.py # Submits report request to get report ID
-│ └── getReportURL.py # Downloads report from URL using document ID
+        documentId.json # Stores document ID response for Sales report
+        reportId.json # Stores Report ID for Sales report
+        getDocumentId.py # Gets document ID using report ID
+        getReportId.py # Submits report request to get report ID
+        getReportURL.py # Downloads report from URL using document ID
 
 
 ├── generateAllReports.bat # Main batch file to run all steps
