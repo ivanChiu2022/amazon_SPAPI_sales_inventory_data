@@ -7,10 +7,12 @@ This project automates the process of generating **Sales**, **Inventory** report
 # Folder Structure
 
 AVC/
+
 ├── accessToken/
         accessToken.json # Stores access token after generation
         data.json # Contains credentials required to request access token
         getAccessToken.py # Python script to generate access token
+
 
 ├── reportAPI_invReport/
         documentId.json # Stores document ID response for inventory report
