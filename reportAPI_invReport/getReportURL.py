@@ -30,7 +30,7 @@ header = {
 
 # get report ID
 
-documentId_Path = r"C:\Users\ichiu\Elite Group Inc\LIMAGE - Documents\Logistics\Sales Report\forecast_review\API\AMAZON\AVC\reportAPI_invReport\documentId.json"
+documentId_Path = r"C:\Users\XXXX\XXXX\documentId.json"
 
 with open(documentId_Path, "r", encoding= "utf-8") as file3: 
     docId = json.load(file3)
