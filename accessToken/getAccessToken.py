@@ -14,7 +14,7 @@ with open("data.json", "r") as file:
 
 headers = {
     "Accept-Encoding" : "gzip, deflate, br"
-    ,"Connection" : "keep-alice"
+    ,"Connection" : "keep-alive"
     ,"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
 }
 
