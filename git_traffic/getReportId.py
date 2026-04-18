@@ -9,7 +9,7 @@ import os
 host = "https://sellingpartnerapi-na.amazon.com/reports/2021-06-30/reports"
 
 # get access token from file "accessToken.json"
-acc = r"C:\Users\ichiu\Elite Group Inc\LIMAGE - Documents\Logistics\Sales Report\forecast_review\API\AMAZON\AVC\accessToken\accessToken.json"
+acc = r"your access token file"
 
 with open(acc, "r", encoding="utf-8") as file:
     access = json.load(file)
